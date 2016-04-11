@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/md_blue_grey_400"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/ic_splash_logo"
+        android:id="@+id/imgSplashLogo"
+        android:layout_above="@+id/lblSplashText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/lblSplashText"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorblue"
+        android:text="@string/strApp"/>
+
+</RelativeLayout>
